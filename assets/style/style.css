@@ -1,0 +1,68 @@
+
+/*--------------------------------------Background colors--*/
+
+.bg-color-title {
+    background-color: #fafaf0;
+}
+
+.bg-color-header {
+    background: #ff8fcb85;
+}
+
+/*--------------------------------------Header-------------*/
+
+.band-image {
+    position: relative;
+    display:inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding-top: 30px;
+    height: 400px;
+    transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+}
+
+.jumbotron {
+    
+    background: #98FB98;
+}
+
+.nav-bar {
+    padding-top:20px;
+    padding-bottom:25px;
+    line-height:100px;
+}
+
+/*-----------------------------Headings-------*/
+
+.heading-band {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.block-break {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    width: 100px;
+    border-radius: 20px;
+    height: 5px;
+    background-color: black;
+}
+
+/*-----------------------------Band Members---*/
+
+.band-member-image {
+    display: inline-block;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.dj-image {
+    padding-left: 30px;
+}
