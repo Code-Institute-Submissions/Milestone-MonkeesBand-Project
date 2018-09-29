@@ -11,6 +11,10 @@
     background: #D3D3D3;
 }
 
+.bg-color-footer {
+    background-color: #353535;
+}
+
 /*--------------------------------------Header-------------*/
 
 .band-image {
@@ -47,12 +51,27 @@
     
 }
 
+.nav li a {
+    position: relative;
+    display: block;
+    padding: 25px 20px;
+}
 
+a {
+    color: #dff0d8;
+    text-decoration: none;
+}
 
-.nav-style {
-    
-    text-align: center;
-    
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #333;
+    background-color: #fff;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+.navbar-default .navbar-brand {
+    color: #dff0d8;
 }
 
 
@@ -97,6 +116,18 @@ h1  {
     padding-right: 20px;
 }
 
-.dj-image {
-    
+
+/*-------------------------------Footer------*/
+
+.social-links {
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.general-sub {
+    color: #dff0d8;
+    padding-top: 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: 2em;
 }
