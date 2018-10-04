@@ -48,11 +48,11 @@
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav nav-pills nav-style">
-                            <li class=" text-center active"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a></li>
-                            <li class=""><a href="media.html">Media</a></li>
-                             <li class=" text-center active"><a href="gigs.html"><i class="glyphicon glyphicon-music" aria-hidden="true"></i> <span class="sr-only">(current)</span>Gigs</a></li>
-                            <li class=""><a href="bookings.html">Book The Monkees!</a></li>
+                        <ul class="nav nav-justified nav-pills nav-style">
+                            <li class="text-center active text-nowrap"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a></li>
+                            <li class="text-center active text-nowrap"><a href="media.html">Media</a></li>
+                             <li class="text-center active text-nowrap"><a href="gigs.html"><i class="glyphicon glyphicon-music" aria-hidden="true"></i> <span class="sr-only">(current)</span>Gigs</a></li>
+                            <li class="text-center active text-nowrap"><a href="bookings.html">Book The Monkees!</a></li>
                             
                              
                         </ul>
@@ -68,8 +68,21 @@
     
     <hr class="block-break">
 
-    <section>
-       
+    <section class="container-fluid">
+        <div class="row bg-color-contact-me">
+            <div>
+            <h3 class="heading-band text-center">Book The Monkees Now!</h3>
+            <h5 class="heading-band text-center">Fill out the form below to have The Monkees play live.</h5>
+           </div>
+        <div class="center-form">
+            <form>
+                <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Event Description" required></textarea>
+                <button type="submit" class="btn btn-secondary center-block">Send Booking Request</button>
+            </form>
+        </div>
+    </div>
     </section>
     
     <hr class="block-break">
