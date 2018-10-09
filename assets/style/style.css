@@ -8,7 +8,14 @@
 } 
 
 .bg-color-header {
-    background: #fafaf0;
+    background: url('../assets/images/monkees-band-cover.jpg.jpg');
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  display: flex;
+  align-items: center;
 }
 
 .bg-color-footer {
@@ -31,9 +38,9 @@
     
 }
 
-.inline-block {
+section {
     
-    display: inline-block;
+    background: #25eaea4d;
 }
 
 /*------------------------------------Nav*/
@@ -70,6 +77,12 @@
     border-radius: 20px;
 }
 
+@media (min-width: 768px){
+.navbar .container .navbar-brand, .navbar .container-fluid .navbar-brand {
+    margin-left: 15px;
+}
+}
+
 @media(min-width: 992px){
 .section-column {
     
@@ -103,6 +116,34 @@ h1  {
     border-radius: 20px;
     height: 5px;
     background-color: black;
+}
+
+p {
+    font-family: "Ubuntu";
+    font-weight: 200;
+}
+
+/*-----------------------------Media----------*/
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-bottom: 20px;
+    background: #ec2705b8;
+}
+
+/*-----------------------------Gigs-----------*/
+
+.functions {
+    font-size: 20px;
+    font-style: oblique;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: "Ubuntu";
+    font-weight: 400;
 }
 
 /*-----------------------------Band Members---*/
