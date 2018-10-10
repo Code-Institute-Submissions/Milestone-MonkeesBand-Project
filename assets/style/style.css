@@ -8,18 +8,29 @@
 } 
 
 .bg-color-header {
-    background: url('../assets/images/monkees-band-cover.jpg.jpg');
+    background: url('../assets/images/monkees-band-cover.jpg');
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
   display: flex;
   align-items: center;
 }
 
 .bg-color-footer {
     background-color: #353535;
+}
+
+section {
+    
+    background: #25eaea4d;
+}
+
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #e0131385;
 }
 
 /*--------------------------------------Header-------------*/
@@ -38,12 +49,7 @@
     
 }
 
-section {
-    
-    background: #25eaea4d;
-}
-
-/*------------------------------------Nav*/
+/*-------------------------------------------------------Nav*/
 
 .navbar {
     
@@ -137,6 +143,9 @@ audio, canvas, progress, video {
 .functions {
     font-size: 20px;
     font-style: oblique;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 ol, ul {
@@ -144,6 +153,44 @@ ol, ul {
     margin-bottom: 10px;
     font-family: "Ubuntu";
     font-weight: 400;
+}
+
+.mk-functions {
+    display: inline-block;
+    text-align: center;
+    font-size: 600; 
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: black;
+    border-left: 1px solid;
+}
+
+.timeline-item::before {
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 10px;
+    content: '';
+    background: black; 
 }
 
 /*-----------------------------Band Members---*/
@@ -177,28 +224,44 @@ button[type="submit"]{
     
 }
 
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #e40606;
+    text-decoration-color: #5a2890;
+    background-color: #f5f5f5;
+    background-image: none;
+}
+
 /*-------------------------------Footer------*/
 
-a .glyphicon-book {
-    display: block;
-    text-align: center;
-    font-size: 45px;
-    
-    padding-top: 15px;
-    color: #fffff0;
+a .social-styles {
+    color: #f6f9ff;
+    margin: 10px 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: orange;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
 }
 
-
-.social-links {
-    font-size: 50px;
-    padding-top: 20px;
-    color: #fffff0;
+a .social-styles:hover {
+    color: blue;
+    background-color: white;
 }
+
 
 .general-sub {
     color: #dff0d8;
     padding-top: 15px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 300;
-    font-size: 2em;
+    font-size: 16px;
 }
