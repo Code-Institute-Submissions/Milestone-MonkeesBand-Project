@@ -1,15 +1,15 @@
 
-     Milestone Project - Monkees band fan site.
+     #Milestone Project - Monkees band fan site.
      
-     UX
+     ##UX
      ___
     
      I designed the website for fans/followers of the Monkees to promote the bands music and availability for bookings to play live.
      As the band is based from 1960's I wanted to make it as user friendly as possible with a simple navigation bar that could direct the user
      clearly through the site. I drew up basic wireframes to give me an idea of what I wanted the site to look like before I started writing any code.
-     These files can be found  in a seperate directory named "assets/wireframes" embedded in my project.
+     These files can be found  in a seperate directory named **"assets/wireframes"** embedded in my project.
      
-     Features
+     ##Features
      _________
      
      My website consists of four different pages named home, media, gigs and bookings. I obtained the audio and image material 
@@ -23,18 +23,18 @@
      events or functions the band is available to play at and a brief list of their own future gigs. Finally page four includes a mock up submit form 
      where the user could theoretically book the monkees to play.
      
-     Technologies Used
+     ##Technologies Used
      __________________
      
      To achieve this task I used two languages HTML and CSS. I also used libraries obtained via Bootstrap to help with the layout and styles on
      my page.
      
-     Links to libraries used;
+     **Links to libraries used**;
      
      "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
      "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
      
-     Testing
+     ##Testing
      ________
      
      As it is only a mock up website there is not much testing needed to be done but I have fully tested that the navigation bar and the submit form
