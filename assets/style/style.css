@@ -17,6 +17,17 @@
   align-items: center;
 }
 
+.bg-image-header {
+    background: url('../../assets/images/monkees-band-cover-1.jpg');
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 100px 100px;
+  display: flex;
+  align-items: center;
+}
+
 .bg-color-footer {
     background-color: #353535;
 }
@@ -34,7 +45,7 @@ blockquote {
 }
 
 /*--------------------------------------Header-------------*/
-
+/*
 .band-image {
     position: relative;
     vertical-align: middle;
@@ -48,7 +59,7 @@ blockquote {
     padding-bottom: 30px;
     
 }
-
+/*
 /*-------------------------------------------------------Nav*/
 
 .navbar {
